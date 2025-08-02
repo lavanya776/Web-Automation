@@ -1,0 +1,19 @@
+# Project: Selenium Automated Testing Framework
+
+This repository presents a professional-grade web testing framework designed as a portfolio project to illustrate strong test automation skills in Python and Selenium.
+
+- Utilizes the Page Object Model for scalable and maintainable architecture
+- Includes centralized error handling with automatic screenshot capture on test failures
+- Features robust explicit waits for dynamic web pages and thorough inline documentation
+
+## Technologies
+- Python 3.x
+- Selenium WebDriver
+- ChromeDriver
+
+## Project Highlights
+- Comprehensive test coverage of core e-commerce features (profile, home, products, cart)
+- All-in-one runner for seamless automated smoke/regression testing
+- Clean code, modular design, and extensibility recommended in industry best practices
+- Includes detailed comments and documentation for easy understanding
+- Designed to be easily extended with additional test cases or page objects
