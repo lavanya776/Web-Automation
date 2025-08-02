@@ -12,18 +12,18 @@ Catching UI bugs and workflow issues automatically, before they reach customers.
 
 Providing repeatable, auditable, and scalable tests for continuous integration and continuous delivery (CI/CD) environments.
 
-How Was This Framework Built?
+** How Was This Framework Built? **
 Python & Selenium WebDriver: For robust browser automation across Chrome and other browsers.
 
-Page Object Model (POM): Each significant page (Home, Product, Cart, Profile, etc.) is represented as a class, encapsulating selectors and business functions. This promotes modularity and simple maintenance.
+** Page Object Model (POM): ** Each significant page (Home, Product, Cart, Profile, etc.) is represented as a class, encapsulating selectors and business functions. This promotes modularity and simple maintenance.
 
-Central Test Runner: Orchestrates end-to-end user scenarios using shared WebDriver sessions for realistic workflows.
+** Central Test Runner: ** Orchestrates end-to-end user scenarios using shared WebDriver sessions for realistic workflows.
 
-Automatic Screenshot Capture on Failure: On any test failure, screenshots are saved with timestamped filenames in a dedicated /screenshots directory, expediting debugging and reporting.
+** Automatic Screenshot Capture on Failure: ** On any test failure, screenshots are saved with timestamped filenames in a dedicated /screenshots directory, expediting debugging and reporting.
 
-Explicit Waits and Advanced Element Locators: Ensures reliable interaction with dynamic web content and asynchronous page loads.
+** Explicit Waits and Advanced Element Locators: ** Ensures reliable interaction with dynamic web content and asynchronous page loads.
 
-Scope of Automated Testing
+## Scope of Automated Testing
 This framework enables the automation of critical e-commerce functionality, including but not limited to:
 
 Product Browsing & Search: Validation of product listings, details, search, and filtering (price ranges, categories).
