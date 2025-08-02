@@ -1,7 +1,7 @@
-#Selenium test automation for E-Commerce Website
+## Selenium test automation for E-Commerce Website
 This repository contains a professional-grade, Python-based Selenium automation framework built to validate and ensure the quality of a modern e-commerce web application. Leveraging the Page Object Model (POM) architecture, this framework encapsulates UI workflows, providing a scalable, reusable, and maintainable test suite ready for regression, smoke, and workflow automation.
 
-#Why Create This Framework?
+## Why Create This Framework?
 Quality and reliability are mission-critical in e-commerce, where UX failures directly impact sales, trust, and brand reputation. Manual testing is laborious, repetitive, and error-prone. This automation framework solves these issues by:
 
 Enabling rapid regression testing after every release or code change.
